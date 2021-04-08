@@ -38,6 +38,7 @@ function  Z = psrqGabor2DV01(q,f,X)
   % q power 
   ex = 1 / (1-q);
   
+
   % qGaussian
   D1 = (1 + (1-q) * X.^2).^ex;
   
